@@ -1,0 +1,197 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/how_are_you" />
+
+        <RadioButton
+            android:id="@+id/good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/well"
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/ok"
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/not_good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/not_good"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingTop="16dp"
+            android:text="@string/sleep" />
+
+        <RadioButton
+            android:id="@+id/well"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/well"
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/so"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/so"
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/fatigue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/fatigue"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingTop="16dp"
+            android:text="@string/check_boxes" />
+
+        <CheckBox
+            android:id="@+id/fever"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/fevers"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/headaches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/headaches"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/eye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/eye"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/ear"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/nose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/nose"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/throat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/throat"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/cough"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/cough"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/chest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/chest"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/palpitations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/palpitations"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/breath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/breath"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/joint_pains"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/joint_pains"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/joint_swelling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/joint_swelling"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/muscles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/muscles"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/name_field"
+            android:paddingTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="text" />
+    </LinearLayout>
+
+</ScrollView>

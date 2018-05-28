@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">healthCheck</string>
+    //**Question 1**//
+    <string name="how_are_you">1. How are you feeling?</string>
+    <string name="good">Good</string>
+    <string name="ok">Not great, but not bad</string>
+    <string name="not_good">Not Good</string>
+    //**Question 2**//
+    <string name="sleep">2. How did you sleep?</string>
+    <string name="well">Well</string>
+    <string name="so">So-So</string>
+    <string name="fatigue">Fatigue</string>
+    //**Question 3**//
+    <string name="check_boxes">3. Please indicate if you currently experience any of the following:</string>
+    <string name="fevers">Fevers</string>
+    <string name="headaches">Headaches</string>
+    <string name="eye">Eye Problems</string>
+    <string name="ear">Ear Problems</string>
+    <string name="nose">Nose Problems</string>
+    <string name="throat">Sore throat</string>
+    <string name="cough">Cough</string>
+    <string name="chest">Chest Pain</string>
+    <string name="palpitations">Palpitations</string>
+    <string name="breath">Short of Breath</string>
+    <string name="joint_pains">Joint Pains</string>
+    <string name="joint_swelling">Joint_Swelling</string>
+    <string name="muscles">Muscle aches</string>
+    //**Question 4**//
+    <string name="name">4. Please write your name here:</string>
+</resources>
